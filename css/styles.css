@@ -51,3 +51,99 @@ body {
   text-decoration: none;
   margin: 2rem;
 }
+
+.centrar-texto{
+  text-align: center;
+}
+
+.productos{
+  display: flex;
+}
+
+img{
+  max-width: 100%;
+}
+
+.card{
+  flex-basis: 25%;
+  margin: 0.5rem;
+}
+
+.principal{
+  background-color: white;
+}
+
+.contenido-principal{
+  display: flex;
+}
+
+.card-img img{
+  height: 30rem;
+  object-fit: cover;
+}
+
+.nuestros-productos{
+  flex-basis: 75%;
+}
+
+.mas-vendidos{
+  flex: 25%;
+}
+
+.listado li{
+  display: flex;
+  padding: 2rem 0;
+  border-bottom: solid .1rem #ddd;
+}
+
+.listado li img{
+  height: 7rem;
+  width: 5rem;
+}
+
+.listado li span{
+  margin: 0 .2rem;
+  font-size: 1.4rem;
+}
+
+footer{
+  background-color: black;
+}
+
+.footer-info{
+  display: flex;
+  color: white;
+  border-bottom: solid .1rem #ddd;
+}
+
+.info{
+  flex-basis: calc(25% - 2rem);
+  margin: 0 2rem;
+}
+
+.info ul{
+  list-style: none;
+  padding: 0;
+}
+
+.info ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer-copy{
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+.contactos{
+  display: flex;
+  list-style: none;
+}
+
+.contactos li a{
+  text-decoration: none;
+  color:white;
+  margin: 0 2rem;
+}
